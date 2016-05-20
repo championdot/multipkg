@@ -1,0 +1,6 @@
+default:
+  name: cnnic-python 
+  version: '.2.7.8'
+  build: 1
+  release: 1 
+  summary: python 2.7.8. 

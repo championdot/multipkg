@@ -1,0 +1,5 @@
+#!/bin/sh
+set -x
+./configure --prefix=/usr/local/quagga || exit 1
+make || exit 1
+make install || exit 1

@@ -1,0 +1,5 @@
+#!/bin/sh
+set -x
+./configure --prefix=/usr/local  ||exit 1
+make --jobs=`grep processor /proc/cpuinfo | wc -l` || exit 1
+make install  DESTDIR=$DESTDIR || exit 1

@@ -1,0 +1,7 @@
+default:
+  name: cnnic-quagga 
+  version: '0.99.20'
+  build: 1
+  release: 1
+  summary: quagga service include zebra and ospf rip bgp and so on.
+  buildprefix: /usr/local/quagga
